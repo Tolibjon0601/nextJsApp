@@ -2,7 +2,7 @@
 
 export default function Services() {
   return (
-    <div className="container max-w-[1360px] mx-auto  ">
+    <div className="container max-w-[1360px] mx-auto   ">
       <div className="max-w-[700px] mx-auto justify-center text-center">
         <h1 className="pt-14 text-2xl font-bold mb-4">Xizmatlar</h1>
         <p className="mb-4">

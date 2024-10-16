@@ -1,8 +1,7 @@
-import Link from "next/link";
 
 export default function Home() {
   return (
-<div className="container max-w-[1360px] mx-auto pt-24 flex justify-between items-center">
+<div className="container max-w-[1360px] mx-auto pt-24 flex justify-between items-center ">
 <div className="max-w-[470px]">
 <h1 className="text-3xl font-bold mb-4">Biznesingizni keyingi bosqichga
 olib chiqing</h1>
