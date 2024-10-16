@@ -35,7 +35,7 @@ export default function RootLayout({
         <img src="/image/header-logo.svg" alt="Logo" />
       </div>
       <ul className="flex gap-4 ">
-        <li><a href="">Bosh sahifa</a></li>
+        <li><Link href="/">Bosh sahifa  </Link></li>
         <li><Link href="/xizmatlar">Xizmatlar</Link></li>
         <li><a href="">Portfolio</a></li>
         <li><a href="">Jamoa</a></li>
