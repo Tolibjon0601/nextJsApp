@@ -9,8 +9,18 @@ olib chiqing</h1>
 <button className="px-4 py-2 bg-blue text-white rounded-lg">Xizmatlar bilan tanishish</button>
 </div>
 <div>
-<iframe width="550" height="350 " src="https://www.youtube.com/embed/GJf28veNWHE" title="Fifth Harmony - Work from Home (Lyrics) ft. Ty Dolla $ign" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe
+    width="550"
+    height="350"
+    src="https://www.youtube.com/embed/GJf28veNWHE"
+    title="Fifth Harmony - Work from Home (Lyrics) ft. Ty Dolla $ign"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
 </div>
+
 </div>
   );
 }
