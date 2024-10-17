@@ -11,3 +11,12 @@
   text-align: center;
   color:#00bafc;
 }
+.services_item {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
