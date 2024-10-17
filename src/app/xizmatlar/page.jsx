@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { request } from "../../services/api"; // Assuming request is correctly set up in api.js
+import { request } from "../../services/api";
 import Image from "next/image";
 import Link from "next/link";
 

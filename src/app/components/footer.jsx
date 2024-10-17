@@ -18,9 +18,9 @@ const Footer = () => {
 </ul>
 <ul className='text-white'>
 <li><a href="" className='text-[20px] mb-4 font-semibold text-white'>Biz internetda</a></li>
-  <li className='flex items-center gap-2 mt-2'><img src="image/telegram.svg" alt="" />Telegram</li>
-  <li className='flex items-center gap-2 mt-2'><img src="image/facebook.svg" alt="" />Facebook</li>
-  <li className='flex items-center gap-2 mt-2'><img src="image/instagram.svg" alt="" />Instagram</li>
+  <li className='flex items-center gap-2 mt-2'><img src="/image/telegram.svg" alt="" />Telegram</li>
+  <li className='flex items-center gap-2 mt-2'><img src="/image/facebook.svg" alt="" />Facebook</li>
+  <li className='flex items-center gap-2 mt-2'><img src="/image/instagram.svg" alt="" />Instagram</li>
 </ul>
 </div>
   )
