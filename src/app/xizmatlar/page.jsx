@@ -53,6 +53,7 @@ export default function Services() {
 		setServiceToEdit(null);
 	};
 
+
 	return (
 		<div className="container max-w-[1360px] mx-auto">
 			<div className="max-w-[700px] mx-auto justify-center text-center">
@@ -110,19 +111,20 @@ export default function Services() {
 				))}
 			</ul>
 
-			{/* Modals */}
+
 			<DeletePage
 				isOpen={isDeleteModalOpen}
 				onClose={closeDeleteModal}
 				onDelete={handleDelete}
 				service={serviceToDelete}
 			/>
-			<EditModal
-				isOpen={isEditModalOpen}
-				onClose={closeEditModal}
-				onEdit={handleEdit}
-				service={serviceToEdit}
-			/>
+<EditModal
+    isOpen={isEditModalOpen}
+    onClose={closeEditModal}
+    onEdit={handleEdit}
+    service={serviceToEdit}
+   
+/>
 		</div>
 	);
 }
