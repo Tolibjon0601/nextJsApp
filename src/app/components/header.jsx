@@ -9,28 +9,7 @@ const Header = () => {
       <img src="/image/header-logo.svg" alt="Logo" />
       </Link>
 			</div>
-			<ul className="flex gap-2">
-				<li>
-					<a className="hover:bg-blue px-2 py-2 rounded-lg hover:text-white" href="">
-						electronics
-					</a>
-				</li>
-				<li>
-					<a className="hover:bg-blue px-2 py-2 rounded-lg hover:text-white" href="">
-						jewelery
-					</a>
-				</li>
-				<li>
-					<a className="hover:bg-blue px-2 py-2 rounded-lg hover:text-white" href="">
-						men's clothing
-					</a>
-				</li>
-				<li>
-					<a className="hover:bg-blue px-2 py-2 rounded-lg hover:text-white" href="">
-						women's clothing
-					</a>
-				</li>
-			</ul>
+
 			<ul className="flex gap-2 ">
 				<li>
 					<Link className="hover:bg-blue px-2 py-2 rounded-lg hover:text-white" href="/">

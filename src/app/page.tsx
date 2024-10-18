@@ -23,6 +23,7 @@ export default function Home() {
 					allowFullScreen
 				></iframe>
 			</div>
+			
 		</div>
 	);
 }
