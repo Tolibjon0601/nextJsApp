@@ -69,13 +69,15 @@ export default function Services() {
 						key={service.id}
 						className="w-[400px] h-auto shadow items-center flex flex-col services_item rounded-xl"
 					>
-						<Image
+			<Link href={`/services/${service.id}`}>
+          <Image
 							width={300}
 							height={250}
 							className="mt-6 mb-4 relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
 							src={service.image}
 							alt={service.title}
 						/>
+          </Link>
 						<div className="px-5 py-4">
 							<h1 className="font-merriweather text-xl font-normal break-all leading-8 text-gray-900 mb-4">
 								{service.title}
@@ -123,7 +125,7 @@ export default function Services() {
     onClose={closeEditModal}
     onEdit={handleEdit}
     service={serviceToEdit}
-   
+
 />
 		</div>
 	);
