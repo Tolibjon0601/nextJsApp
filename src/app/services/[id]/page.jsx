@@ -28,7 +28,7 @@ const Singlepage = ({ params }) => {
 			/>
     </div>
 
-				
+
 		</div>
 	);
 };
